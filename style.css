@@ -72,4 +72,6 @@ nav a:hover {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: justify; /* Membuat teks rata kiri-kanan */
+    line-height: 1.8; /* Memberi jarak antar baris kalimat agar enak dibaca */
 }
