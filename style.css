@@ -55,3 +55,19 @@ nav a:hover {
 .social-links a:hover {
     background-color: #fad6f5;
 }
+
+.about-section {
+    padding: auto;
+    max-width: 400px;
+    margin: auto;
+
+}
+.about-section h2 {
+    color: #f595e5;
+    margin-top: 20px;
+
+}
+.about-content {
+    background-color: #fad6f5;
+    padding: 20px;
+}
