@@ -71,5 +71,5 @@ nav a:hover {
     background-color: #fad6f5;
     padding: 30px;
     border-radius: 10px;
-    box-decoration-break: slice;
+    box-shadow: #ffffff;
 }
