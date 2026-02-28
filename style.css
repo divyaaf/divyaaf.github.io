@@ -75,3 +75,7 @@ nav a:hover {
     text-align: justify; /* Membuat teks rata kiri-kanan */
     line-height: 1.8; /* Memberi jarak antar baris kalimat agar enak dibaca */
 }
+.about-content h2 {
+     color: #f595e5;
+    margin-top: 20px;
+}
