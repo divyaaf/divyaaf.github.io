@@ -3,14 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6e6f8; /* Warna latar sedikit abu-abu */
+    background-color: #ffcaf3; /* Warna latar sedikit abu-abu */
     color: #333;
     text-align: center;
 }
 
 /* Mempercantik menu navigasi di atas */
 nav {
-    background-color: #fefefe;
+    background-color: #fbb1f7;
     padding: 15px;
 }
 
@@ -22,7 +22,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #f7cae1; /* Berubah biru saat kursor diarahkan */
+    color: #fba0cf; /* Berubah biru saat kursor diarahkan */
 }
 
 /* Mengatur jarak konten utama */
@@ -36,7 +36,7 @@ nav a:hover {
     height: 150px;
     border-radius: 50%; /* Membuat kotak jadi lingkaran */
     object-fit: cover;
-    border: 4px solid #2c3e50;
+    border: 4px solid #f595e5;
     margin-bottom: 20px;
 }
 
