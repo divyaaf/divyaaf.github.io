@@ -3,14 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Warna latar sedikit abu-abu */
+    background-color: #f4adff; /* Warna latar sedikit abu-abu */
     color: #333;
     text-align: center;
 }
 
 /* Mempercantik menu navigasi di atas */
 nav {
-    background-color: #2c3e50;
+    background-color: #ffaae7;
     padding: 15px;
 }
 
@@ -53,5 +53,5 @@ nav a:hover {
 }
 
 .social-links a:hover {
-    background-color: #005582;
+    background-color: #ffbcf5;
 }
