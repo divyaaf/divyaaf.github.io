@@ -69,5 +69,6 @@ nav a:hover {
 }
 .about-content {
     background-color: #fad6f5;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 10px;
 }
