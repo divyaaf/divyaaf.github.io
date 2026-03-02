@@ -78,6 +78,5 @@ nav a:hover {
 .about-content h3 {
      color: #e9d0e5;
      margin-top: 20px;
-     padding: 30px;
-    
+     padding: auto;
 }
