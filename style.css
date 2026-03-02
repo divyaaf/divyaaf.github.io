@@ -76,7 +76,8 @@ nav a:hover {
     line-height: 1.8; /* Memberi jarak antar baris kalimat agar enak dibaca */
 }
 .about-content h3 {
-     color: #e9d0e5;
+     color: #292528;
      margin-top: 20px;
      padding: auto;
+     text-align: center;
 }
