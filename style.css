@@ -3,19 +3,19 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff8fd; /* Warna latar sedikit abu-abu */
-    color: #333;
+    background-color: #FFFBF1; /* Warna latar sedikit abu-abu */
+    color: #4f3737;
     text-align: center;
 }
 
 /* Mempercantik menu navigasi di atas */
 nav {
-    background-color: #fbb1f7;
+    background-color: #FFFBF1;
     padding: 15px;
 }
 
 nav a {
-    color: white;
+    color: #FB9B8F;
     text-decoration: none; /* Menghilangkan garis bawah pada link */
     margin: 0 15px;
     font-weight: bold;
@@ -36,7 +36,7 @@ nav a:hover {
     height: 150px;
     border-radius: 50%; /* Membuat kotak jadi lingkaran */
     object-fit: cover;
-    border: 4px solid #f595e5;
+    border: 4px solid #FB9B8F;
     margin-bottom: 20px;
 }
 
@@ -45,8 +45,8 @@ nav a:hover {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background-color: #ff8fee; /* Warna biru LinkedIn */
-    color: white;
+    background-color: #F57799; /* Warna biru LinkedIn */
+    color:#4f3737;
     text-decoration: none;
     border-radius: 5px; /* Ujung tombol sedikit membulat */
     font-weight: bold;
@@ -63,12 +63,12 @@ nav a:hover {
 
 }
 .about-section h2 {
-    color: #f595e5;
+    color: #4f3737;
     margin-top: 20px;
 
 }
 .about-content {
-    background-color: #fad6f5;
+    background-color: #FB9B8F;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -76,7 +76,7 @@ nav a:hover {
     line-height: 1.8; /* Memberi jarak antar baris kalimat agar enak dibaca */
 }
 .about-content h3 {
-     color: #292528;
+     color: #4f3737;
      margin-top: 20px;
      padding: auto;
      text-align: center;
