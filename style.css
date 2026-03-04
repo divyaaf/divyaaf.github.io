@@ -81,3 +81,10 @@ nav a:hover {
      padding: auto;
      text-align: center;
 }
+
+.about-content h4 {
+     color: #4f3737;
+     margin-top: 40px;
+     padding: auto;
+     text-align: center;
+}
