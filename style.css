@@ -306,3 +306,10 @@ nav a:hover {
 
 
 }
+
+.data-button a:hover{
+    background-color: #2D2C5A;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(45, 44, 90, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
