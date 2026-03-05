@@ -110,6 +110,12 @@ nav a:hover {
      text-align: center;
 }
 
+.summary-content p {
+     color: #353765;;
+     margin-top: 20px;
+     padding: auto;
+     text-align: justify;
+}
 .experience-content {
     background-color: #FFFFFF;
     color: #333333;
@@ -128,12 +134,11 @@ nav a:hover {
 }
 
 .experience-content h3 {
-
-     color: #2D2C5A;
-     margin-top: 10;
-     padding: auto;
-     text-align: center;
-     font-weight: bold;
+    color: #2D2C5A;
+    margin-top: 10;
+    padding: auto;
+    text-align: center;
+    font-weight: bold;
     
 }
 .sub-judul {
@@ -145,6 +150,7 @@ nav a:hover {
     font-size: 35;
 }
 
+
 .experience-list li::marker {
     color: #8EBEB6; 
     font-weight: bold;
@@ -154,6 +160,7 @@ nav a:hover {
     color: #353765;
 }
 .experience-list li{
+    color: #353765;
     text-align: left;
     margin-bottom: 10px;
     line-height: 1.6;
