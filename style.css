@@ -1,59 +1,79 @@
-/* Mengatur font dasar dan warna latar belakang */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFBF1; /* Warna latar sedikit abu-abu */
-    color: #4f3737;
+    background-color: #E8F2EF; 
+    color: #2D2C5A; 
     text-align: center;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; 
+    width: 100%;
+}
 
-/* Mempercantik menu navigasi di atas */
+
 nav {
-    background-color: #FFFBF1;
+    background-color: #FFFFFF;
     padding: 15px;
 }
 
 nav a {
-    color: #FB9B8F;
-    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: #5C6594;
+    text-decoration: none; 
     margin: 0 15px;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #fba0cf; /* Berubah biru saat kursor diarahkan */
+    color: #2D2C5A; 
 }
 
-/* Mengatur jarak konten utama */
+
 .hero {
     padding: 60px 20px;
 }
 
-/* Mengatur gambar profil agar jadi bulat (Syarat Gambar & Styling) */
+
+
 .profile-img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Membuat kotak jadi lingkaran */
+    border-radius: 50%; 
     object-fit: cover;
-    border: 4px solid #FB9B8F;
+    border: 4px solid #2D2C5A;
     margin-bottom: 20px;
+    transition: all 0.3s ease;
+    
 }
 
-/* Membuat link sosmed seperti tombol */
+.profile-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(142, 190, 182, 0.6); 
+    border-color: #5C6594; 
+}
+
+
 .social-links a {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background-color: #F57799; /* Warna biru LinkedIn */
-    color:#4f3737;
+    background-color: #595FA4; 
+    color:#FFFFFF;
     text-decoration: none;
-    border-radius: 5px; /* Ujung tombol sedikit membulat */
+    border-radius: 5px; 
     font-weight: bold;
 }
 
 .social-links a:hover {
-    background-color: #fad6f5;
+    background-color: #2D2C5A;
+    color: #E8F2EF;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(45, 44, 90, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-section {
@@ -63,28 +83,139 @@ nav a:hover {
 
 }
 .about-section h2 {
-    color: #4f3737;
+    color: #2D2C5A;
     margin-top: 20px;
 
 }
-.about-content {
-    background-color: #FB9B8F;
-    padding: 30px;
+.summary-content {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: justify; /* Membuat teks rata kiri-kanan */
-    line-height: 1.8; /* Memberi jarak antar baris kalimat agar enak dibaca */
+    text-align: justify; 
+    line-height: 1.8; 
+    margin-bottom: 20px;
 }
-.about-content h3 {
-     color: #4f3737;
+
+.summary-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(45, 44, 90, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.summary-content h3 {
+     color: #2D2C5A;
      margin-top: 20px;
      padding: auto;
      text-align: center;
 }
 
-.about-content h4 {
-     color: #4f3737;
-     margin-top: 40px;
+.experience-content {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: justify; 
+    line-height: 1.8; 
+    margin-bottom: 20px
+}
+
+.experience-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(45, 44, 90, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-content h3 {
+
+     color: #2D2C5A;
+     margin-top: 10;
      padding: auto;
      text-align: center;
+     font-weight: bold;
+    
 }
+.sub-judul {
+    color: #5C6594;
+    margin-top: 10px;
+    padding: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35;
+}
+
+.experience-list li::marker {
+    color: #8EBEB6; 
+    font-weight: bold;
+}
+.experience-list {
+    list-style-type: "✓";
+    color: #353765;
+}
+.experience-list li{
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    padding-left: 10px;
+}
+
+.projects-section {
+    padding: auto;
+    max-width: 400px;
+    margin: auto;
+}
+
+.projects-section h2 {
+    color: #2D2C5A;
+    margin-top: 20px;
+    
+}
+
+.wave-fiman {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center; 
+    line-height: 1.8; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wave-fiman:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(45, 44, 90, 0.15);
+}
+.wave-fiman h3 {
+    color: #2D2C5A;
+    text-align: center;
+    font-weight: 600;
+}
+
+.wave-fiman-list li {
+    color: #333333;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.button-projects a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5C6594; 
+    color:#FFFFFF;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-weight: bold;
+}
+
+.button-projects a:hover {
+    background-color: #2D2C5A;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(45, 44, 90, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    
