@@ -7,7 +7,7 @@ import { projectItems } from '../data/siteData';
 function Projects() {
   return (
     <div className="page-stack">
-      <PageHeading eyebrow="Projects" title="Selected academic work" />
+      <PageHeading eyebrow="Projects" title="Project Collection" />
 
       <div className="content-stack projects-grid">
         {projectItems.map((project, index) => (
