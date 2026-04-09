@@ -1,6 +1,7 @@
 import tableauImage from '../assets/Tableau.jpeg';
 import waveImage from '../assets/WAVE.jpeg';
 import beehiveImage from '../assets/Beehive.jpeg';
+import automationImage from '../assets/Automation.png';
 
 export const siteNavigation = [
   { path: '/', label: 'Home', exact: true },
@@ -42,6 +43,20 @@ export const experienceItems = [
 ];
 
 export const projectItems = [
+    {
+    title: 'katalon-web-automation-portfolio',
+    image: automationImage,
+    bullets: [
+      'Developed automated test scripts for web applications using Katalon Studio and managed version control with Git',
+      'Implemented Functional & UI Automation, including complex scenarios such as dynamic elements, modal verification, and multi-page data table operations (Search, Edit, Delete).',
+    ],
+    links: [
+      {
+        label: 'View on GitHub',
+        href: 'https://github.com/divyaaf/katalon-web-automation-portfolio',
+      },
+    ],
+  },
   {
     title: 'Academic Information System Projects (WAVE & FIMAN)',
     image: waveImage,
@@ -60,6 +75,7 @@ export const projectItems = [
       },
     ],
   },
+
   {
     title: 'BEEHIVE Database Project',
     image: beehiveImage,
