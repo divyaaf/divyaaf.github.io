@@ -44,7 +44,7 @@ export const experienceItems = [
 
 export const projectItems = [
     {
-    title: 'katalon-web-automation-portfolio',
+    title: 'Web Application Test Automation',
     image: automationImage,
     bullets: [
       'Developed automated test scripts for web applications using Katalon Studio and managed version control with Git',
