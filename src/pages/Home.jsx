@@ -13,7 +13,7 @@ function Home() {
             <div className="hero-avatar-wrap">
               <img src={profileImage} alt="Foto Profil" className="hero-avatar" />
             </div>
-            <p className="eyebrow">Information Systems Student</p>
+            <p className="eyebrow">INFORMATION SYSTEMS GRADUATE • BINUS UNIVERSITY • GPA: 3.71</p>
             <h1>Halo, My Name is Divya!</h1>
             <p className="hero-copy">Let's get to know me better.</p>
             <div className="button-row">

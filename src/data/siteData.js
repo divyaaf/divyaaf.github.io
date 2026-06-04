@@ -2,6 +2,7 @@ import tableauImage from '../assets/Tableau.jpeg';
 import waveImage from '../assets/WAVE.jpeg';
 import beehiveImage from '../assets/Beehive.jpeg';
 import automationImage from '../assets/Automation.png';
+import codingcamp1Image from '../assets/CodingCamp1.png';
 
 export const siteNavigation = [
   { path: '/', label: 'Home', exact: true },
@@ -21,16 +22,17 @@ export const socialLinks = [
 ];
 
 export const summaryText =
-  'Final-year Information Systems student with hands-on experience in application testing and system validation during an internship at Mandiri Utama Finance Experienced in manual testing, analyzing system functionality and validating data using SQL, including reviewing test results and documenting defects.';
+  'Information System graduate from Bina Nusantara University. Experience in manual testing, application testing, and system validation. I have experience analyzing system functionality and identifying real issues across both web and mobile platforms to improve overall product quality. Additionally, I am seeking opportunities in the Information Systems field to leverage my skills and support continuous system development.';
 
 export const experienceItems = [
   {
     title: 'Application Tester Intern, Mandiri Utama Finance',
     bullets: [
-      'Executed 50+ manual test cases for Android and web applications to ensure all features work correctly and meet the application standards.',
+      'Executed 50+ manual test cases across 5+ projects within the Business System and Entrepreneur teams for both web and mobile applications, ensuring feature functionality and UAT readiness.',
       'Performed data validation using SQL to ensure accuracy between UI and database records.',
-      'Performed API testing using Postman to validate request and response accuracy.',
-      'Identified and documented 30+ defects in JIRA, accelerating the bug-fix cycle through detailed reporting and retesting',
+      'Utilized Postman to generate test data and simulate 30+ transaction scenarios to support testing workflows.',
+      'Discovered and documented 25+ real issues in JIRA, managing the defect lifecycle through detailed reporting, retesting, and final status resolution.',
+      'Collaborated with 3 cross-functional teams (developers, business analysts, and operations) to clarify BRD and communicate issues,resulting in faster defect resolution and smoother testing cycles.',
     ],
   },
   {
@@ -56,6 +58,25 @@ export const projectItems = [
         href: 'https://github.com/divyaaf/katalon-web-automation-portfolio',
       },
     ],
+  },
+  {
+    title: 'Expense & Budget Visulizer',
+    image: codingcamp1Image,
+    bullets: [
+      'Developed a mobile friendly expense tracking web applicatio using HTML,CSS and Vanilla Javascript.',
+      'Implemented browser Local Storage for client-side data management, featuring dynamic transaction lists, total balance calculation, and a spending distribution chart.',
+      'Integrated advanced user features including a dark/light mode toggle, custom category creation, transaction sorting, and a monthly budget limit tracker.',
+    ],
+    links: [
+      {
+        label: 'View Live App',
+        href: 'https://divyaaf.github.io/CodingCamp-25May26-divya/',
+      },
+      {
+        label: 'View Certificate',
+        href: 'https://drive.google.com/file/d/1mfKioCsNhOZw-6B7LWvxRe3IsKaZF5BR/view?usp=sharing',
+      }
+    ]
   },
   {
     title: 'Academic Information System Projects (WAVE & FIMAN)',
