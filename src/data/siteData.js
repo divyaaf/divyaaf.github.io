@@ -2,7 +2,7 @@ import tableauImage from '../assets/Tableau.jpeg';
 import waveImage from '../assets/WAVE.jpeg';
 import beehiveImage from '../assets/Beehive.jpeg';
 import automationImage from '../assets/Automation.png';
-import codingcamp1Image from '../assets/CodingCamp1.png';
+import codingcamp1Image from '../assets/Codingcamp1.png';
 
 export const siteNavigation = [
   { path: '/', label: 'Home', exact: true },
